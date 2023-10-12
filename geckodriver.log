@@ -459,3 +459,181 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/FvrbBlV_jFWbJeQ31HKG04hrbzYZAPR58b-SgZjo0Pc.js line 2 > eval line 3650 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/FvrbBlV_jFWbJeQ31HKG04hrbzYZAPR58b-SgZjo0Pc.js line 2 > eval line 2562 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1697129426618	geckodriver	INFO	Listening on 127.0.0.1:60115
+1697129427667	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "--no-sandbox" "-no-remote" "-profile" "/tmp/rust_mozprofilewjEt9q"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697129428072	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+1697129428157	Marionette	INFO	Listening on port 40067
+Read port: 40067
+1697129428353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=ZA, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://prebid.a-mo.net/isyn?__st=iframe&gdpr=0&gdpr_consent=&us_privacy=1---&_e=_e%3DCsUBShJ3aXRjaGVyLmZhbmRvbS5jb21SC2Fhcy0wN2ZhZDZkWghwYmExLjMuMmoSd2l0Y2hlci5mYW5kb20uY29t-gEGNy4zNy406AIBiAPnx6CpBqgDGeoDCW5mMXlscC5qaqoEA0lTULIFA1VTRNIFCTEwNTE5OTYxOdgFAeAFAeoFB2Rlc2t0b3D6BQNueTXSBiAxMUQ0QTk1RjAzMzFDNTIzMTNFODUzQzY0NjhCOEZDMaoHA3dlYsoHCmZhbmRvbS5jb20, line 2: ReferenceError: __am$CK is not defined
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=ZA, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=ZA, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://prebid.a-mo.net/isyn?gdpr=0&gdpr_consent=&us_privacy=1---&cb=%20https%3A%2F%2Fsync.spotim.market%2Fcsync%3Ft%3Da%26ep%3D696268%26extuid%3D, line 2: ReferenceError: __am$CK is not defined
+JavaScript error: https://prebid.a-mo.net/isyn?__st=iframe&gdpr=0&gdpr_consent=&us_privacy=1---&_e=_e%3DCsUBShJ3aXRjaGVyLmZhbmRvbS5jb21SC2Fhcy0wN2ZhZDZkWghwYmExLjMuMmoSd2l0Y2hlci5mYW5kb20uY29t-gEGNy4zNy406AIBiAPnx6CpBqgDGeoDCW5mMXlscC5qaqoEA0lTULIFA1VTRNIFCTEwNTE5OTMyONgFAOAFAeoFB2Rlc2t0b3D6BQNueTXSBiAxMUQ0QTk1RjAzMzFDNTIzMTNFODUzQzY0NjhCOEZDMaoHA3dlYsoHCmZhbmRvbS5jb20, line 2: ReferenceError: __am$CK is not defined
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 347: TypeError: can't access dead object
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 6223 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 2815 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 2330 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GsA0opaeSuQuy-lmi5lGjpCuNVb8V7iM3aRf4cGq52I.js line 2 > eval line 1802 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets-getpublic.nws.ai/public_sdk_1.56.js, line 31434: TypeError: randomMedia is undefined
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 347: TypeError: can't access dead object
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 347: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GsA0opaeSuQuy-lmi5lGjpCuNVb8V7iM3aRf4cGq52I.js line 2 > eval line 125 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1697129521671	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1697129527471	geckodriver	INFO	Listening on 127.0.0.1:51693
+1697129528518	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileYRQ48d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697129529357	Marionette	INFO	Marionette enabled
+1697129529508	Marionette	INFO	Listening on port 44467
+Read port: 44467
+1697129529619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GsA0opaeSuQuy-lmi5lGjpCuNVb8V7iM3aRf4cGq52I.js line 2 > eval line 1516 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets-getpublic.nws.ai/public_sdk_1.56.js, line 31434: TypeError: randomMedia is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GsA0opaeSuQuy-lmi5lGjpCuNVb8V7iM3aRf4cGq52I.js line 2 > eval line 6625 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GsA0opaeSuQuy-lmi5lGjpCuNVb8V7iM3aRf4cGq52I.js line 2 > eval line 1081 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 1255 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent={gdpr_consent}&cc=ZA, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://prebid.a-mo.net/isyn?gdpr={gdpr}&gdpr_consent={gdpr_consent}&us_privacy={us_privacy}&cb=%20https%3A%2F%2Fsync.spotim.market%2Fcsync%3Ft%3Da%26ep%3D696268%26extuid%3D, line 2: ReferenceError: __am$CK is not defined
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=ZA, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://prebid.a-mo.net/isyn?__st=iframe&gdpr=0&gdpr_consent=&us_privacy=1---&_e=_e%3DCsUBShJ3aXRjaGVyLmZhbmRvbS5jb21SC2Fhcy0wN2ZhZDZkWghwYmExLjMuMmoSd2l0Y2hlci5mYW5kb20uY29t-gEGNy4zNy406AIBiAPjyKCpBqgDGeoDCW5mNGxtNC5leKoEA0lTULIFA1VTRNIFCTEwNTE5OTYxOdgFAeAFAeoFB2Rlc2t0b3D6BQNueTXSBiAxMUQ0QTk1RjAzMzFDNTIzMTNFODUzQzY0NjhCOEZDMaoHA3dlYsoHCmZhbmRvbS5jb20, line 2: ReferenceError: __am$CK is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 3819 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 476 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 2205 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1697129604301	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 347: TypeError: can't access dead object
+1697129604491	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1697129604512	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1697129604628	Marionette	INFO	Stopped listening on port 44467
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1697129604717	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1697129604751	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1697129604773	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1697129621425	geckodriver	INFO	Listening on 127.0.0.1:46953
+1697129622473	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilehao4jJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697129622969	Marionette	INFO	Marionette enabled
+1697129623069	Marionette	INFO	Listening on port 38127
+Read port: 38127
+1697129623162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GsA0opaeSuQuy-lmi5lGjpCuNVb8V7iM3aRf4cGq52I.js line 2 > eval line 7280 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://www.clickcease.com/monitor/stat.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 3838 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GsA0opaeSuQuy-lmi5lGjpCuNVb8V7iM3aRf4cGq52I.js line 2 > eval line 2462 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent={gdpr_consent}&cc=ZA, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://prebid.a-mo.net/isyn?gdpr={gdpr}&gdpr_consent={gdpr_consent}&us_privacy={us_privacy}&cb=%20https%3A%2F%2Fsync.spotim.market%2Fcsync%3Ft%3Da%26ep%3D696268%26extuid%3D, line 2: ReferenceError: __am$CK is not defined
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=ZA, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://prebid.a-mo.net/isyn?__st=iframe&gdpr=0&gdpr_consent=&us_privacy=1---&_e=_e%3DCsUBShJ3aXRjaGVyLmZhbmRvbS5jb21SC2Fhcy0wN2ZhZDZkWghwYmExLjMuMmoSd2l0Y2hlci5mYW5kb20uY29t-gEGNy4zNy406AIBiAPCyaCpBqgDGeoDCW5mNm1pMC4yZKoEA0lTULIFA1VTRNIFCTEwNTE5OTMyONgFAOAFAeoFB2Rlc2t0b3D6BQNueTXSBiAxMUQ0QTk1RjAzMzFDNTIzMTNFODUzQzY0NjhCOEZDMaoHA3dlYsoHCmZhbmRvbS5jb20, line 2: ReferenceError: __am$CK is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 5167 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 5656 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 6028 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown
