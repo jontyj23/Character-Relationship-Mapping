@@ -16,8 +16,6 @@ def main():
     for book in books_load:
         text = open(book).read()
         texts.append(text)
-              
-    
 
     # Load character names
     characters_df = pd.read_csv("characters.csv")
@@ -85,9 +83,10 @@ def main():
         # Aggregate relationships and weight them
         relationships_df = relationships_df.groupby(['source','target'], sort=False, as_index=False).sum()
         
-        for x in range(sentence_entity_df):
-            relations.append({'book': book[x].name, 'relations_df': sentence_entity_df})
+        # Append to dict list
+        relations.append({'book': books_load[x], 'relations_df': sentence_entity_df})
 
+    print(f'Number of maps created: {len(relations)}')
 # Function to filter out the non-character entities from the dataframe
 def filter_entity(ent_list, characters_df):
     return [ent for ent in ent_list
