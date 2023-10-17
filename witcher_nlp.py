@@ -80,7 +80,7 @@ def main():
         relationships_df = relationships_df.groupby(['source','target'], sort=False, as_index=False).sum()
         
         # Create csv of relationships_df
-        relationships_df.to_csv(f"{book_name}.csv")
+        relationships_df.to_csv(f"relationship_csvs/{book_name}.csv")
         
 # Function to filter out the non-character entities from the dataframe
 def filter_entity(ent_list, characters_df):
