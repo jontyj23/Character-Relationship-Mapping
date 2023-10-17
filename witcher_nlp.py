@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import spacy
 import os
+import re
 
 def main():
     # Load spacy module
@@ -9,24 +10,19 @@ def main():
 
     # Scan directory and load books
     books_load = [book for book in os.scandir("data") if ".txt" in book.name]
-
-    #! Read the books and load into nlp
     numbooks = len(books_load)
-    texts = []
-    for book in books_load:
-        text = open(book).read()
-        texts.append(text)
 
     # Load character names
     characters_df = pd.read_csv("characters.csv")
-    
-    # List to hold dataframe of relationships per book
-    relations = []
    
     # Loop to perform per book in list
     for x in range(numbooks):
+        # Retrieve filename of the text currently being processed
+        book_name = re.sub(r"\.txt", '', books_load[x].name)
+        
         # Create doc object for book
-        doc = nlp(texts[x])
+        text = open(books_load[x]).read()
+        doc = nlp(text)
         
         # Create lists of named entities for each sentence
         sentence_entity_df = []
@@ -83,10 +79,9 @@ def main():
         # Aggregate relationships and weight them
         relationships_df = relationships_df.groupby(['source','target'], sort=False, as_index=False).sum()
         
-        # Append to dict list
-        relations.append({'book': books_load[x], 'relations_df': sentence_entity_df})
-
-    print(f'Number of maps created: {len(relations)}')
+        # Create csv of relationships_df
+        relationships_df.to_csv(f"{book_name}.csv")
+        
 # Function to filter out the non-character entities from the dataframe
 def filter_entity(ent_list, characters_df):
     return [ent for ent in ent_list
