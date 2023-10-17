@@ -10,7 +10,7 @@ csv_load = [csv for csv in os.scandir("relationship_csvs") if ".csv" in csv.name
 
 # Load relationship data for each book into a dictionary
 book_relationships = {}
-for idx in range(csv_load):
+for idx in range(len(csv_load)):
     csv_name = re.sub(r'\.csv', '', csv_load[idx])
     book_relationships[f'{csv_name}'].append(pd.read_csv(csv_load))
 
