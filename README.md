@@ -1,6 +1,6 @@
 # Character Relationship Mapping
 
-This is a project to test the capability of natural language processing in the process of character identification from a book series. The project consists of a webscraper, a python script to create the character maps and a second script to create a dashboard so as to visualize the character maps.
+The purpose of this project is both to test the capability of natural language processing in the process of character identification from a book series and to understand how this could be implemented to understand the principles of analyzing networks through visualization. The project consists of a webscraper, a python script to create the character maps and a second script to create a dashboard so as to visualize the character maps.
 
 ## Webscraper (scraper.ipynb)
 
@@ -18,21 +18,18 @@ The full process of the code is:
 - From here we use a window over the sentences to determine that if the 2 characters appear together in this window they have some form of relationship with one another
 - Using the window size decided upon the characters are then connected in a new dataframe to specify a relationship
 - This relationship dataframe is sorted and a weight column generated to specify the number of instances in which a relationship between them was detected
-- This relationship dataframe is saved as the basis of the character relationship map
+- This relationship dataframe is saved as a CSV file to form the basis of the character relationship map
 
 In the notebook, relationship_creation.ipynb, the dataframe was visualized using the networkx graphing library to ensure that the format of the dataframe was suitable to generate network graphs.
 
 ## Dashboard
 
+This project is furthered after the creation of the character map into displaying the maps for each book in a dashboard, as below.
 
-The file relationship_creation.ipynb is a notebook to explore and assess the creation of a process to create the character maps with the use of the spacy module for natural language processing. This is only performed on 1 of the books that were stored for testing the creation of this process.
+![Alt text](markdown_assets/relationshipmap.png)
 
-The character_nlp.py file is a the full process of the character map creation performed with a total of 8 books from the Witcher series.
+This dashboard has a dropdown function to select a book from the dataset and update to display the relavent map. The dashboard was created using the Dash library as there is not much customization needed for the current settings.
 
-The process of the character relationship map creation is:
-- Load the spacy module
-```
- # Load spacy module
- nlp = spacy.load("en_core_web_sm")
-```
+The map is created by passing the relevant CSV file to a Networkx network and then loading that graph into a pyvis Network.
 
+Currently the dashboard is set up only to display the graphs but the code is in the process of being altered to add more context into each network, such as using weighting to determine the significance of the relationship or using colors to highlight the direct lines of connection for the main characters.
