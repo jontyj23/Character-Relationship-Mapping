@@ -10,4 +10,14 @@ The names of the characters are stored in a pandas dataframe, matched to the boo
 
 ## Relationship map creation
 
+The file relationship_creation.ipynb is a notebook to explore and assess the creation of a process to create the character maps with the use of the spacy module for natural language processing. This is only performed on 1 of the books that were stored for testing the creation of this process.
+
+The character_nlp.py file is a the full process of the character map creation performed with a total of 8 books from the Witcher series.
+
+The process of the character relationship map creation is:
+- Load the spacy module
+```
+ # Load spacy module
+ nlp = spacy.load("en_core_web_sm")
+```
 
