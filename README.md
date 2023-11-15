@@ -26,7 +26,7 @@ In the notebook, relationship_creation.ipynb, the dataframe was visualized using
 
 This project is furthered after the creation of the character map into displaying the maps for each book in a dashboard, as below.
 
-![](https://github.com/jontyj23/Character-Relationship-Mapping/assets/140620283/287f6f44-c547-4bc9-b40c-64ee7c971f2e)
+![relationshipmap](https://github.com/jontyj23/Character-Relationship-Mapping/assets/140620283/287f6f44-c547-4bc9-b40c-64ee7c971f2e)
 
 This dashboard has a dropdown function to select a book from the dataset and update to display the relavent map. The dashboard was created using the Dash library as there is not much customization needed for the current settings.
 
